@@ -9,6 +9,7 @@ Projeto desenvolvido para construção do conhecimento das aulas Ignite.
 ## 🛠️ Tecnologias
 - Vite
 - ReactJs
+- Json
 - Taypescript
 - HTML
 - CSS
