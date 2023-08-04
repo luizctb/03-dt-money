@@ -16,5 +16,13 @@
             "price": 40,
             "createdAt": "2023-07-28T01:36:08.315Z"
         },
+        {
+            "id": 2,
+            "description": "Ignite Rockteseat",
+            "type": "outcome",
+            "category": "Edução",
+            "price": 1980,
+            "createdAt": "2023-07-28T01:24:04.315Z"
+        },
     ]
 }
