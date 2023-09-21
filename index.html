@@ -2,30 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
     <title>DT Money</title>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module">
-      import React from 'react';
-      import ReactDOM from 'react-dom';
-      import { SearchForm } from './src/pages/Transactions/components/SearchForm'; // Importe o componente SearchForm
-
-      const App = () => {
-        return (
-          <div>
-            <h1>DT Money App</h1>
-            <SearchForm /> {/* Renderize o componente SearchForm aqui */}
-          </div>
-        );
-      };
-
-      // Aqui você pode renderizar o componente App dentro da div com o id "root"
-      ReactDOM.render(<App />, document.getElementById('root'));
-    </script>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
+
